@@ -1,0 +1,52 @@
+/* 1. Apply a background color and text color to the header using the ID */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* 2. Use a class to style the main content section */
+  .header-class {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  /* 3. Style the content section with margins, padding, and borders */
+  .content-section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  /* 4. Style the image with margins and a border */
+  #image-1 {
+    width: 100%;
+    max-width: 300px;
+    border: 5px solid #333;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* 5. Style the footer using the class */
+  .footer-class {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  /* 6. Apply different typography (font family and size) */
+  body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTRO TO CSS</title>
+  <!-- Link the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header with a class and an ID -->
+  <header id="main-header" class="header-class">
+    <h1>{
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Arial', sans-serif;}</h1>
+        <h2> .header-class {
+          font-size: 24px;
+          font-weight: bold;
+          text-transform: uppercase;
+          margin-bottom: 30px;}</h2>
+  </header>
+
+  <!-- Section with a class -->
+  <section class="content-section">
+    <p>This is a simple page to demonstrate CSS styling.</p>
+  </section>
+
+  <!-- Image with an ID -->
+  <div>
+    <img id="image-1" src="https://via.placeholder.com/300" alt="Placeholder Image">
+
+  </div>
+
+  <!-- Footer with a class -->
+  <footer class="footer-class">
+    <p>Footer Content Here</p>
+  </footer>
+
+</body>
+</html>
